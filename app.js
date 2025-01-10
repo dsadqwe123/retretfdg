@@ -175,7 +175,7 @@ function decodeAES(){
 function M(e){
 	const t = atob(e), a = t.length, n = new Uint8Array(a);
 	for(let s = 0; s < a; s++)
-        n[s] = t.charCodeAt(s);
+            n[s] = t.charCodeAt(s);
 	return n
 }
 function D(e) {
